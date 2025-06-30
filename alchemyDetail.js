@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     // 加载炼金数据
     function loadAlchemyData() {
-        return $.getJSON("/js/alchemy-data.json")
+        return $.getJSON("https://raw.githubusercontent.com/810517583/Milkyalchemy/refs/heads/main/alchemy-data.json")
             .done(function(data) {
                 alchemyData = data;
                 console.log("炼金数据加载完成");
