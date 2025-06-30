@@ -1,1 +1,209 @@
-(function(_0x45c11b,_0x19b98b){const _0x3d4a8c=_0x3893,_0x1d76fc=_0x45c11b();while(!![]){try{const _0xd7cad=-parseInt(_0x3d4a8c(0xf4))/0x1+parseInt(_0x3d4a8c(0x10e))/0x2*(-parseInt(_0x3d4a8c(0xfb))/0x3)+-parseInt(_0x3d4a8c(0x11f))/0x4+parseInt(_0x3d4a8c(0x112))/0x5+-parseInt(_0x3d4a8c(0xfc))/0x6*(parseInt(_0x3d4a8c(0x109))/0x7)+-parseInt(_0x3d4a8c(0x100))/0x8*(-parseInt(_0x3d4a8c(0x102))/0x9)+-parseInt(_0x3d4a8c(0x117))/0xa*(-parseInt(_0x3d4a8c(0x116))/0xb);if(_0xd7cad===_0x19b98b)break;else _0x1d76fc['push'](_0x1d76fc['shift']());}catch(_0x1fdc18){_0x1d76fc['push'](_0x1d76fc['shift']());}}}(_0x36f9,0x698ce),(function(){const _0xa843b3=_0x3893,_0x12c0a0=_0xa843b3(0x11e),_0x16e8a6=_0x21d5e7=>document[_0xa843b3(0x10c)](_0x21d5e7);function _0x1f299b(_0x49d719){const _0xbc2fdc=_0xa843b3;if(_0x49d719<0x3c)return _0x49d719[_0xbc2fdc(0xf5)](0x1)+'秒';const _0x3a1368=Math[_0xbc2fdc(0x106)](_0x49d719/0x3c),_0x2aff94=_0x49d719%0x3c;if(_0x3a1368<0x3c)return _0x3a1368+'分'+(_0x2aff94>0x0?_0x2aff94[_0xbc2fdc(0xf5)](0x1)+'秒':'');const _0x54f36b=Math[_0xbc2fdc(0x106)](_0x3a1368/0x3c),_0x25ba0a=_0x3a1368%0x3c;return _0x54f36b+'小时'+(_0x25ba0a>0x0?_0x25ba0a+'分':'');}function _0x1e21e6(_0x2ffe54,_0x122507){const _0x52f8bd=_0xa843b3;let _0x347625=0x0;for(let _0x43ff62=0x0;_0x43ff62<_0x2ffe54;_0x43ff62++){_0x347625+=0x1;if(_0x122507>0x0){const _0x2fd1c3=Math['min'](_0x122507,0x64)/0x64;Math[_0x52f8bd(0x125)]()<_0x2fd1c3&&(_0x347625+=0x1);if(_0x122507>0x64){const _0x212b7d=(_0x122507-0x64)/0x64;Math['random']()<_0x212b7d&&(_0x347625+=0x1);}}}return _0x347625;}function _0x37f1aa(){const _0x48036d=_0xa843b3,_0x4ce1c9=parseInt(_0x16e8a6(_0x48036d(0x11b))['value'])||0x0,_0x1c00b3=parseInt(_0x16e8a6('efficiencyRate')[_0x48036d(0x119)])||0x0,_0x16eafb=parseInt(_0x16e8a6(_0x48036d(0x10d))[_0x48036d(0x119)])||0x0,_0x341949=parseInt(_0x16e8a6(_0x48036d(0xf9))[_0x48036d(0x119)])||0x0;if(_0x4ce1c9<=0x0||_0x4ce1c9>0xf4240){alert('请输入1-1000000之间的模拟次数');return;}if(_0x16eafb<0x0||_0x16eafb>0x64){alert(_0x48036d(0x108));return;}if(_0x1c00b3<0x0||_0x1c00b3>0xc8){alert(_0x48036d(0x126));return;_0x2e0c84;}const _0x532afe=document['querySelectorAll'](_0x48036d(0xfd)),_0x5d556f=[];let _0x56efde=0x0;_0x532afe['forEach'](_0xb0d97a=>{const _0x3137f1=_0x48036d,_0xf5d8f3=parseFloat(_0xb0d97a[_0x3137f1(0xfa)]('.output-probability')[_0x3137f1(0x119)])||0x0,_0x199c51=_0xb0d97a[_0x3137f1(0xfa)](_0x3137f1(0x11d))[_0x3137f1(0x119)],_0x563e84=parseInt(_0xb0d97a[_0x3137f1(0xfa)](_0x3137f1(0x101))['value'])||0x0;_0x5d556f['push']({'name':_0x199c51,'probability':_0xf5d8f3,'price':_0x563e84,'quantity':0x0,'total':0x0}),_0x56efde+=_0xf5d8f3;});const _0x1fdf49=Math['round'](_0x56efde*0x64)/0x64;if(_0x1fdf49!==0x64){alert(_0x48036d(0x115)+_0x56efde[_0x48036d(0xf5)](0x2)+'%');return;}_0x5d556f[_0x48036d(0xf3)](_0xae7436=>{const _0x17e9cd=_0x48036d;_0xae7436[_0x17e9cd(0xf8)]=0x0,_0xae7436[_0x17e9cd(0x120)]=0x0;});const _0x1b1b00=_0x1e21e6(_0x4ce1c9,_0x1c00b3),_0x3f5718=_0x4ce1c9*_0x341949,_0x16b67d=_0x3f5718*(_0x4ce1c9/_0x1b1b00);let _0x2e0c84=0x0;for(let _0x23d3b6=0x0;_0x23d3b6<_0x4ce1c9;_0x23d3b6++){if(Math[_0x48036d(0x125)]()*0x64<_0x16eafb){_0x2e0c84++;let _0x5dc4aa=Math['random']()*0x64,_0x1540e2=0x0;for(const _0x3abfe8 of _0x5d556f){_0x1540e2+=_0x3abfe8[_0x48036d(0x114)];if(_0x5dc4aa<=_0x1540e2){_0x3abfe8['quantity']++,_0x3abfe8[_0x48036d(0x120)]+=_0x3abfe8['price'];break;}}}}_0x532afe['forEach']((_0xbef697,_0x2d0cf9)=>{const _0x2f73be=_0x48036d;_0xbef697[_0x2f73be(0xfa)](_0x2f73be(0x103))[_0x2f73be(0x119)]=_0x5d556f[_0x2d0cf9]['quantity'],_0xbef697['querySelector'](_0x2f73be(0x105))[_0x2f73be(0x119)]=_0x5d556f[_0x2d0cf9][_0x2f73be(0x120)];});const _0x25e068=(_0x2e0c84/_0x1b1b00*0x64)[_0x48036d(0xf5)](0x2);_0x16e8a6(_0x48036d(0xfe))[_0x48036d(0x11a)]=_0x1f299b(_0x16b67d),_0xf97ba6();}function _0xf97ba6(){const _0x415801=_0xa843b3,_0xff8892=parseFloat(_0x16e8a6(_0x415801(0x11b))[_0x415801(0x119)])||0x0,_0x358619=parseFloat(_0x16e8a6(_0x415801(0x104))[_0x415801(0x119)])||0x0,_0x47e2aa=_0xff8892*_0x358619;_0x16e8a6(_0x415801(0x10f))[_0x415801(0x11a)]=_0x47e2aa[_0x415801(0x110)]();let _0x3300ed=0x0;document[_0x415801(0x11c)](_0x415801(0xfd))['forEach'](_0x39eada=>{const _0x4c1740=_0x415801,_0x6f4366=parseFloat(_0x39eada['querySelector']('.output-total')[_0x4c1740(0x119)])||0x0;_0x3300ed+=_0x6f4366;});const _0x435db0=_0x3300ed-_0x47e2aa,_0x48ec98=_0x16e8a6('profitLoss');_0x48ec98[_0x415801(0x11a)]=_0x435db0[_0x415801(0x110)](),_0x48ec98[_0x415801(0x10b)]=_0x415801(0x113)+(_0x435db0>=0x0?_0x415801(0x118):_0x415801(0xf6));}function _0x26c4a6(){const _0x3dec54=_0xa843b3,_0x479cff=parseFloat(_0x16e8a6(_0x3dec54(0xff))[_0x3dec54(0x119)])||0x0,_0x415f37=parseFloat(_0x16e8a6(_0x3dec54(0xf2))['value'])||0x0,_0x445976=parseFloat(_0x16e8a6(_0x3dec54(0x107))[_0x3dec54(0x119)])||0x0,_0x3ca5d4=_0x479cff+_0x415f37+_0x445976;_0x16e8a6(_0x3dec54(0x104))[_0x3dec54(0x119)]=_0x3ca5d4,_0xf97ba6();}function _0x1ddd0e(){const _0x5291f6=_0xa843b3,_0x132b88=[_0x5291f6(0x11b),'itemPrice',_0x5291f6(0xf2),_0x5291f6(0x107),_0x5291f6(0xf9),_0x5291f6(0x10d),_0x5291f6(0x10a)];_0x132b88[_0x5291f6(0xf3)](_0x453da0=>{const _0x1f6721=_0x5291f6;_0x16e8a6(_0x453da0)[_0x1f6721(0x124)](_0x1f6721(0x122),_0x26c4a6);}),document['querySelectorAll'](_0x5291f6(0x123))[_0x5291f6(0xf3)](_0x4af9cb=>{const _0x5014e6=_0x5291f6;_0x4af9cb[_0x5014e6(0x124)](_0x5014e6(0x122),_0xf97ba6);}),_0x16e8a6(_0x5291f6(0x121))[_0x5291f6(0x124)](_0x5291f6(0xf7),_0x37f1aa);}function _0x22fdfe(){_0x1ddd0e(),_0x26c4a6();}document[_0xa843b3(0x124)](_0xa843b3(0x111),_0x22fdfe),window['alchemyCalculator']={'simulateAlchemy':_0x37f1aa,'calculateProfit':_0xf97ba6,'calculateSingleCost':_0x26c4a6,'formatTime':_0x1f299b};}()));function _0x3893(_0x196997,_0x10eabf){const _0x36f9af=_0x36f9();return _0x3893=function(_0x3893f9,_0x1d7362){_0x3893f9=_0x3893f9-0xf2;let _0x2e70e9=_0x36f9af[_0x3893f9];return _0x2e70e9;},_0x3893(_0x196997,_0x10eabf);}function _0x36f9(){const _0x47c19a=['probability','所有物品的概率总和必须为100%，当前为','14651967Gsvlqt','10HUCUuc','profit','value','textContent','simulateTimes','querySelectorAll','.output-item','ac_','3187576jhOsdh','total','startBtn','input','#outputItems\x20.output-price,\x20#outputItems\x20.output-probability','addEventListener','random','效率必须在0-200之间','Catalyst','forEach','415326QTHlnB','toFixed','loss','click','quantity','timePerTry','querySelector','51864tTOLfA','1260tZXOVJ','#outputItems\x20tr','timeCost','itemPrice','4860616HcAJSY','.output-price','9ElYyRV','.output-quantity','allcostPerTry','.output-total','floor','costPerTry','成功率必须在0-100之间','19208YRpCsH','efficiencyRate','className','getElementById','successRate','16ydahQi','totalCost','toLocaleString','DOMContentLoaded','2097620qFdfjZ','result-value\x20'];_0x36f9=function(){return _0x47c19a;};return _0x36f9();}
+(function() {
+    const ac_prefix = 'ac_';
+    
+    // 获取DOM元素
+    const ac_getElement = (id) => document.getElementById(id);
+    
+    // 格式化时间显示（秒 → 分钟/小时）
+    function ac_formatTime(seconds) {
+        if (seconds < 60) {
+            return `${seconds.toFixed(1)}秒`;
+        }        
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;        
+        if (minutes < 60) {
+            return `${minutes}分${remainingSeconds > 0 ? remainingSeconds.toFixed(1) + '秒' : ''}`;
+        }        
+        const hours = Math.floor(minutes / 60);
+        const remainingMinutes = minutes % 60;        
+        return `${hours}小时${remainingMinutes > 0 ? remainingMinutes + '分' : ''}`;
+    }
+	// 新增函数：计算实际动作次数
+	function calculateActualAttempts(baseAttempts, efficiencyRate) {
+    let actualAttempts = 0;
+    for (let i = 0; i < baseAttempts; i++) {
+        // 基础动作
+        actualAttempts += 1;        
+        // 基础重复（效率≤100%部分）
+        if (efficiencyRate > 0) {
+            const baseChance = Math.min(efficiencyRate, 100) / 100;
+            if (Math.random() < baseChance) {
+                actualAttempts += 1;
+            }            
+            // 额外重复（效率>100%部分）
+            if (efficiencyRate > 100) {
+                const extraChance = (efficiencyRate - 100) / 100;
+                if (Math.random() < extraChance) {
+                    actualAttempts += 1;
+                }
+            }
+        }
+    }
+    return actualAttempts;
+}
+    
+    // 模拟炼金过程
+    function ac_simulateAlchemy() {
+        const simulateTimes = parseInt(ac_getElement('simulateTimes').value) || 0;
+        const efficiencyRate = parseInt(ac_getElement('efficiencyRate').value) || 0;
+        const successRate = parseInt(ac_getElement('successRate').value) || 0;
+        const baseTimePerTry = parseInt(ac_getElement('timePerTry').value) || 0;
+        
+        // 验证输入
+        if (simulateTimes <= 0 || simulateTimes > 1000000) {
+            alert('请输入1-1000000之间的模拟次数');
+            return;
+        }
+        
+        if (successRate < 0 || successRate > 100) {
+            alert('成功率必须在0-100之间');
+            return;
+        }
+        
+        if (efficiencyRate < 0 || efficiencyRate > 200) {
+            alert('效率必须在0-200之间');
+            return;successCount 
+        }
+        
+        // 获取产出物品信息
+        const outputRows = document.querySelectorAll('#outputItems tr');
+        const items = [];
+        let totalProbability = 0;
+        
+        outputRows.forEach(row => {
+            const probability = parseFloat(row.querySelector('.output-probability').value) || 0;
+            const itemName = row.querySelector('.output-item').value;
+            const price = parseInt(row.querySelector('.output-price').value) || 0;
+            
+            items.push({
+                name: itemName,
+                probability,
+                price,
+                quantity: 0,
+                total: 0
+            });
+            
+            totalProbability += probability;
+        });
+        
+        // 验证概率总和
+        const roundedTotal = Math.round(totalProbability * 100) / 100;
+        if (roundedTotal !== 100) {
+            alert(`所有物品的概率总和必须为100%，当前为${totalProbability.toFixed(2)}%`);
+            return;
+        }
+        
+        // 重置物品数量
+        items.forEach(item => {
+            item.quantity = 0;
+            item.total = 0;
+        });
+        
+        // 开始模拟
+		const totalActions = calculateActualAttempts(simulateTimes, efficiencyRate);
+		const baseTotalTime = simulateTimes * baseTimePerTry;
+		const totalTime = baseTotalTime * (simulateTimes / totalActions);
+		let successCount = 0;
+		for (let i = 0; i < simulateTimes; i++) {  // 保持用基础次数
+        if (Math.random() * 100 < successRate) {
+            successCount++;            
+            // 随机选择产出物品（保持不变）
+            let random = Math.random() * 100;
+            let accumulated = 0;            
+            for (const item of items) {
+                accumulated += item.probability;
+                if (random <= accumulated) {
+                    item.quantity++;
+                    item.total += item.price;
+                    break;
+                }
+            }
+        }
+    }
+        // 更新UI显示物品数量
+        outputRows.forEach((row, index) => {
+            row.querySelector('.output-quantity').value = items[index].quantity;
+            row.querySelector('.output-total').value = items[index].total;
+        });        
+        // 计算并显示结果
+        const actualSuccessRate = (successCount / totalActions * 100).toFixed(2);
+        ac_getElement('timeCost').textContent = ac_formatTime(totalTime);        
+        // 触发盈亏计算
+        ac_calculateProfit();
+    }
+    
+    // 计算盈亏
+    function ac_calculateProfit() {
+        // 计算总成本
+        const ac_simulateTimes = parseFloat(ac_getElement('simulateTimes').value) || 0;
+        const ac_allCostPerTry = parseFloat(ac_getElement('allcostPerTry').value) || 0;
+        const ac_totalCost = ac_simulateTimes * ac_allCostPerTry;
+        ac_getElement('totalCost').textContent = ac_totalCost.toLocaleString();
+        
+        // 计算产出物品总价
+        let ac_totalOutputValue = 0;
+        document.querySelectorAll('#outputItems tr').forEach(row => {
+            const ac_total = parseFloat(row.querySelector('.output-total').value) || 0;
+            ac_totalOutputValue += ac_total;
+        });
+        
+        // 计算盈亏
+        const ac_profitLoss = ac_totalOutputValue - ac_totalCost;
+        const ac_profitElement = ac_getElement('profitLoss');
+        
+        ac_profitElement.textContent = ac_profitLoss.toLocaleString();
+        ac_profitElement.className = 'result-value ' + 
+            (ac_profitLoss >= 0 ? 'profit' : 'loss');
+    }
+    
+    // 计算单次成本
+    function ac_calculateSingleCost() {
+        const ac_itemPrice = parseFloat(ac_getElement('itemPrice').value) || 0;
+        const ac_catalystCost = parseFloat(ac_getElement('Catalyst').value) || 0;
+        const ac_costPerTry = parseFloat(ac_getElement('costPerTry').value) || 0;
+        
+        const ac_singleCost = ac_itemPrice + ac_catalystCost + ac_costPerTry;
+        ac_getElement('allcostPerTry').value = ac_singleCost;
+        
+        // 触发重新计算
+        ac_calculateProfit();
+    }
+    
+    // 初始化事件监听器
+    function ac_initEventListeners() {
+        // 监听所有相关输入的变化
+        const ac_inputsToWatch = [
+            'simulateTimes', 'itemPrice', 'Catalyst', 'costPerTry', 
+            'timePerTry', 'successRate', 'efficiencyRate'
+        ];
+        
+        ac_inputsToWatch.forEach(id => {
+            ac_getElement(id).addEventListener('input', ac_calculateSingleCost);
+        });
+        
+        // 监听产出物品表格的变化
+        document.querySelectorAll('#outputItems .output-price, #outputItems .output-probability').forEach(input => {
+            input.addEventListener('input', ac_calculateProfit);
+        });
+        
+        // 监听开始炼金按钮
+        ac_getElement('startBtn').addEventListener('click', ac_simulateAlchemy);
+    }
+    
+    // 初始化计算器
+    function ac_initCalculator() {
+        ac_initEventListeners();
+        ac_calculateSingleCost(); // 初始计算
+    }
+    
+    // 当DOM加载完成后初始化
+    document.addEventListener('DOMContentLoaded', ac_initCalculator);
+    
+    // 暴露必要的函数到全局
+    window.alchemyCalculator = {
+        simulateAlchemy: ac_simulateAlchemy,
+        calculateProfit: ac_calculateProfit,
+        calculateSingleCost: ac_calculateSingleCost,
+        formatTime: ac_formatTime
+    };
+})();
