@@ -11,10 +11,10 @@ $(document).ready(function() {
         return $.getJSON("https://raw.githubusercontent.com/810517583/Milkyalchemy/refs/heads/main/alchemy-data.json")
             .done(function(data) {
                 alchemyData = data;
-                console.log("炼金数据加载完成");
+                console.log("炼金数据加载完成over");
             })
             .fail(function() {
-                console.error("炼金数据加载失败");
+                console.error("炼金数据加载失败tobad");
             });
     }
     
