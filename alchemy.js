@@ -187,38 +187,6 @@ $('select[name="outputPriceMode"]').change(function() {
         }
     });
 }
-	// 刷新价格按钮点击事件
-$('#refreshPricesBtn').click(function() {
-    // 更新转换物品价格
-    const inputItem = $('.alchemy-text').val();
-    if (inputItem) {
-        const itemId = findItemIdByName(inputItem);
-        if (itemId) {
-            fetchItemPrice(itemId, $('#itemPrice'), currentMaterialMode);
-        }
-    }
-
-    // 更新所有产出物品价格
-    $('.output-item').each(function() {
-        const itemName = $(this).val();
-        if (itemName) {
-            const itemId = findItemIdByName(itemName);
-            if (itemId) {
-                fetchItemPrice(
-                    itemId,
-                    $(this).closest('tr').find('.output-price'),
-                    currentOutputMode
-                );
-            }
-        }
-    });
-    
-    // 添加一个简单的视觉反馈
-    $(this).text('刷新中...').css('opacity', '0.7');
-    setTimeout(() => {
-        $(this).text('刷新价格').css('opacity', '1');
-    }, 500);
-});
 	// 催化剂价格获取
 function fetchCatalystPrice(itemPath, priceInput) {
     if (!itemPath || !priceInput) return;
@@ -275,8 +243,41 @@ $('#itemPrice, #Catalyst, #costPerTry').on('change input', updateTotalCost);
 
 // 价格刷新按钮也要触发计算
 $('#refreshPricesBtn').click(function() {
-	updateSuccessRate();
-    setTimeout(updateTotalCost, 500); // 等API返回后计算
+    // 更新转换物品价格
+    const inputItem = $('.alchemy-text').val();
+    if (inputItem) {
+        const itemId = findItemIdByName(inputItem);
+        if (itemId) {
+            fetchItemPrice(itemId, $('#itemPrice'), currentMaterialMode);
+        }
+    }
+
+    // 更新催化剂价格
+    const catalystType = $('#catalystType').val();
+    if (catalystType) {
+        $('#catalystType').trigger('change'); // 这会触发催化剂价格的重新获取
+    }
+
+    // 更新所有产出物品价格
+    $('.output-item').each(function() {
+        const itemName = $(this).val();
+        if (itemName) {
+            const itemId = findItemIdByName(itemName);
+            if (itemId) {
+                fetchItemPrice(
+                    itemId,
+                    $(this).closest('tr').find('.output-price'),
+                    currentOutputMode
+                );
+            }
+        }
+    });
+    
+    // 添加一个简单的视觉反馈
+    $(this).text('刷新中...').css('opacity', '0.7');
+    setTimeout(() => {
+        $(this).text('刷新价格').css('opacity', '1');
+    }, 500);
 });
 // 监听转换物品输入框的变化自动填充
 });
